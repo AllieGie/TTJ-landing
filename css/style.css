@@ -120,4 +120,30 @@ li {
     width: 90%;
     margin: auto;
   }
+
+  body{
+    cursor: pointer;
+  }
+}
+
+/******************************************
+/* ADDITIONAL STYLES - Cursor
+/*******************************************/
+
+body {
+  cursor: grab;
+}
+
+#cursor {
+  height: 50px;
+  width: 50px;
+  background: goldenrod;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+input:hover ~ #cursor{
+  transform: scale(0.5);
 }
