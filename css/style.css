@@ -43,22 +43,22 @@ body {
 }
 
 #form-section {
-  height: 500px;
-  width: 500px;
+  height: 85vh;
   color: black;
-  background-image: url(../images/landing-page-img.png);
+  background-image: url(../images/ttj-landing-right-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 2%;
-  /*   height: 100vh;
   width: 50%;
+  /*   height: 100vh;
   float: left; */
 }
 
 
 h1 {
   font-family: 'Inter', sans-serif;
+  margin-top: 200px;
 }
 
 p {
@@ -76,18 +76,19 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; */
-  height: auto;
-  width: 48%;
+  height: 85vh;
+  width: 50%;
 }
 
 
-/* img{
-
-} */
+img{
+  width: 100%;
+  height: 85vh;
+}
 
 footer {
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   float: left;
   clear: left;
   padding-left: 75px;
